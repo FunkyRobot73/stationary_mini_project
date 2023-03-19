@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'stationary_mini_project';
+
+  mission = "I'm hoping one day to be as good a programmer as Emmanuel";
+
 }

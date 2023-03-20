@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Iproduct } from './interfaces/iproduct';
+import { Product01Service } from './service/product-01.service';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +10,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'stationary_mini_project';
 
-  mission = "I'm hoping one day to be as good a programmer as Emmanuel";
+  products:Iproduct[];
 
+  constructor(private product01Service: Product01Service) {
+    this.products = product01Service.products;
+  }
 }

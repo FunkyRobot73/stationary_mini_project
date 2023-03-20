@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
 
+Mini-Project from RoboGarden [Viewing Products Sold by Stationary](https://uc-wu.robogarden.ca/app/index/html/course/activity/571/mission/1985/56/1010/true/steps?submodule_id=123&module_id=516) Total 9-Steps
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

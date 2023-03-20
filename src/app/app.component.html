@@ -1,3 +1,15 @@
 <h1>We've Got Pens!!!</h1>
 
 <p>We've got {{products.length}} total Pens.</p>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>ITEM</th>
+  </tr>
+
+  <tr *ngFor="let prod of products">
+    <td>{{ prod.id }}</td>
+    <td>{{ prod.type }}</td>
+  </tr>
+</table>
